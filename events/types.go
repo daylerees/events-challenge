@@ -12,9 +12,12 @@ type AccountInformationUpdated struct {
 	AccountEmail string
 }
 
+// Badge represents a coloured badge
+type Badge int
+
 // A collection of constants used to identify coloured badges.
 const (
-	BlueBadge = iota
+	BlueBadge Badge = iota
 	RedBadge
 	GreenBadge
 )
@@ -23,11 +26,11 @@ const (
 // Accounts can earn more than one badge of the same colour.
 type AccountEarnedBadge struct {
 	AccountID   string
-	BadgeColour int
+	BadgeColour Badge
 }
 
 // AccountBadgeRevoked indicates that a badge has been revoked for a given account.
 type AccountBadgeRevoked struct {
 	AccountID   string
-	BadgeColour int
+	BadgeColour Badge
 }
