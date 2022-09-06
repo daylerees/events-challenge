@@ -21,15 +21,14 @@ You can assume that these events are ordered by the time they were raised. So th
 
 AccountIDs (UUID) are immutable and cannot be updated with the `AccountInformationUpdated` event.
 
-An account 'type' can be calculated for a given account according to the number of coloured badges they have been granted. See the list below for more information.
+An account 'status' can be calculated for a given account according to the number of coloured badges they have been granted. See the list below for more information.
 
-- **Great** - Default type.
+- **Great** - Default status.
 - **Amazing** - 3+ Blue Badges.
 - **Ultimate** - 6+ Blue Badges and 3+ Red Badges.
 - **Champion** - 10+ Blue 5+ Red 1+ Green.
 
 ## Challenges
 
-1. Create an in-memory projection of eventual consistency for accounts, including account ID, name, email and the number of badges earned. There is no need to use an external data storage for this challenge. Consider writing some tests to prove the validity of your projection.
-2. Within your projection, calculate the 'account type' for each account from the number of badges held by the account.
-3. Write a simple API to retrieve account information (id, name, email, badge count and account type) as JSON by account ID.
+1. Create an in-memory projection for accounts, including account ID, name, email, number of badges earned, and the 'status' of the account. There is no need to use an external data storage for this challenge. Consider writing some tests to prove the correctness of your projection.
+2. Write a simple API to retrieve account information (id, name, email, badge count and account type) as JSON by account ID.
