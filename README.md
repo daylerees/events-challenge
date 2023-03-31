@@ -8,7 +8,7 @@ The file `events/types.go` contains definitions for a number of events that desc
 
 - `AccountCreated` - A new user account has been created.
 - `AccountInformationUpdated` - An update has been made to the username or/and email address for an account. Empty values should not be changed.
-- `AccountEarnedBadge` - An account has earned a coloured badge. An account can earn more than one badge of the same colour.
+- `AccountBadgeEarned` - An account has earned a coloured badge. An account can earn more than one badge of the same colour.
 - `AccountBadgeRevoked` - A coloured badge has been revoked for a given user account.
 
 Calling the `GetEvents()` function from the events package will retrieve a time-sequenced slice of account events.

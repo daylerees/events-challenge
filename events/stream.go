@@ -23,45 +23,45 @@ func GetEvents() []interface{} {
 		AccountCreated{
 			AccountID: user3,
 		},
-		AccountEarnedBadge{
+		AccountBadgeEarned{
 			AccountID:   user1,
 			BadgeColour: BlueBadge,
 		},
-		AccountEarnedBadge{
+		AccountBadgeEarned{
 			AccountID:   user1,
 			BadgeColour: BlueBadge,
 		},
-		AccountEarnedBadge{
+		AccountBadgeEarned{
 			AccountID:   user1,
 			BadgeColour: BlueBadge,
 		},
-		AccountEarnedBadge{
+		AccountBadgeEarned{
 			AccountID:   user2,
 			BadgeColour: BlueBadge,
 		},
 		AccountInformationUpdated{
-			AccountID:   user2,
-			AccountName: "Ryanne Gold",
+			AccountID:    user2,
+			AccountName:  "Ryanne Gold",
 			AccountEmail: "r.gold98@yahoo.co.uk",
 		},
-		AccountEarnedBadge{
+		AccountBadgeEarned{
 			AccountID:   user2,
 			BadgeColour: BlueBadge,
 		},
-		AccountEarnedBadge{
+		AccountBadgeEarned{
 			AccountID:   user2,
 			BadgeColour: RedBadge,
 		},
-		AccountEarnedBadge{
+		AccountBadgeEarned{
 			AccountID:   user1,
 			BadgeColour: BlueBadge,
 		},
 		AccountInformationUpdated{
-			AccountID:   user1,
-			AccountName: "Amy Smith",
+			AccountID:    user1,
+			AccountName:  "Amy Smith",
 			AccountEmail: "asmith@gmail.com",
 		},
-		AccountEarnedBadge{
+		AccountBadgeEarned{
 			AccountID:   user1,
 			BadgeColour: GreenBadge,
 		},
@@ -69,39 +69,39 @@ func GetEvents() []interface{} {
 			AccountID:   user1,
 			BadgeColour: BlueBadge,
 		},
-		AccountEarnedBadge{
+		AccountBadgeEarned{
 			AccountID:   user2,
 			BadgeColour: BlueBadge,
 		},
-		AccountEarnedBadge{
+		AccountBadgeEarned{
 			AccountID:   user2,
 			BadgeColour: BlueBadge,
 		},
-		AccountEarnedBadge{
+		AccountBadgeEarned{
 			AccountID:   user1,
 			BadgeColour: RedBadge,
 		},
-		AccountEarnedBadge{
+		AccountBadgeEarned{
 			AccountID:   user1,
 			BadgeColour: GreenBadge,
 		},
-		AccountEarnedBadge{
+		AccountBadgeEarned{
 			AccountID:   user2,
 			BadgeColour: BlueBadge,
 		},
-		AccountEarnedBadge{
+		AccountBadgeEarned{
 			AccountID:   user2,
 			BadgeColour: BlueBadge,
 		},
-		AccountEarnedBadge{
+		AccountBadgeEarned{
 			AccountID:   user2,
 			BadgeColour: RedBadge,
 		},
-		AccountEarnedBadge{
+		AccountBadgeEarned{
 			AccountID:   user2,
 			BadgeColour: RedBadge,
 		},
-		AccountEarnedBadge{
+		AccountBadgeEarned{
 			AccountID:   user2,
 			BadgeColour: RedBadge,
 		},
@@ -109,86 +109,86 @@ func GetEvents() []interface{} {
 			AccountID:   user2,
 			BadgeColour: RedBadge,
 		},
-		AccountEarnedBadge{
+		AccountBadgeEarned{
 			AccountID:   user2,
 			BadgeColour: RedBadge,
 		},
-		AccountEarnedBadge{
+		AccountBadgeEarned{
 			AccountID:   user3,
 			BadgeColour: BlueBadge,
 		},
-		AccountEarnedBadge{
+		AccountBadgeEarned{
 			AccountID:   user3,
 			BadgeColour: BlueBadge,
 		},
-		AccountEarnedBadge{
+		AccountBadgeEarned{
 			AccountID:   user3,
 			BadgeColour: BlueBadge,
 		},
-		AccountEarnedBadge{
+		AccountBadgeEarned{
 			AccountID:   user3,
 			BadgeColour: BlueBadge,
 		},
-		AccountEarnedBadge{
+		AccountBadgeEarned{
 			AccountID:   user3,
 			BadgeColour: BlueBadge,
 		},
-		AccountEarnedBadge{
+		AccountBadgeEarned{
 			AccountID:   user3,
 			BadgeColour: BlueBadge,
 		},
 		AccountInformationUpdated{
-			AccountID:   user3,
-			AccountName: "Sam Lang",
+			AccountID:    user3,
+			AccountName:  "Sam Lang",
 			AccountEmail: "samalang@hey.com",
 		},
-		AccountEarnedBadge{
+		AccountBadgeEarned{
 			AccountID:   user3,
 			BadgeColour: BlueBadge,
 		},
-		AccountEarnedBadge{
+		AccountBadgeEarned{
 			AccountID:   user3,
 			BadgeColour: BlueBadge,
 		},
 		AccountInformationUpdated{
-			AccountID:   user3,
+			AccountID:    user3,
 			AccountEmail: "samlang@hey.com",
 		},
-		AccountEarnedBadge{
+		AccountBadgeEarned{
 			AccountID:   user3,
 			BadgeColour: BlueBadge,
 		},
-		AccountEarnedBadge{
+		AccountBadgeEarned{
 			AccountID:   user3,
 			BadgeColour: BlueBadge,
 		},
-		AccountEarnedBadge{
+		AccountBadgeEarned{
 			AccountID:   user3,
 			BadgeColour: RedBadge,
 		},
-		AccountEarnedBadge{
+		AccountBadgeEarned{
 			AccountID:   user3,
 			BadgeColour: RedBadge,
 		},
-		AccountEarnedBadge{
+		AccountBadgeEarned{
 			AccountID:   user3,
 			BadgeColour: RedBadge,
 		},
-		AccountEarnedBadge{
+		AccountBadgeEarned{
 			AccountID:   user3,
 			BadgeColour: RedBadge,
 		},
-		AccountEarnedBadge{
+		AccountBadgeEarned{
 			AccountID:   user3,
 			BadgeColour: RedBadge,
 		},
-		AccountEarnedBadge{
+		AccountBadgeEarned{
 			AccountID:   user3,
 			BadgeColour: GreenBadge,
 		},
 		AccountInformationUpdated{
-			AccountID:   user2,
-			AccountName: "Ryan Gold",
+			AccountID:    user2,
+			AccountName:  "Ryan Gold",
 			AccountEmail: "r.gold98@yahoo.co.uk",
 		},
 	}
