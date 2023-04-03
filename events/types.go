@@ -22,9 +22,9 @@ const (
 	GreenBadge
 )
 
-// AccountEarnedBadge indicates that an account has earned a badge of a given colour.
+// AccountBadgeEarned indicates that an account has earned a badge of a given colour.
 // Accounts can earn more than one badge of the same colour.
-type AccountEarnedBadge struct {
+type AccountBadgeEarned struct {
 	AccountID   string
 	BadgeColour Badge
 }
